@@ -1,0 +1,14 @@
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\bin\Debug\ClientForm.exe.config
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\bin\Debug\ClientForm.exe
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\bin\Debug\ClientForm.pdb
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\obj\Debug\ClientForm.csprojResolveAssemblyReference.cache
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\obj\Debug\ClientForm.Form1.resources
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\obj\Debug\ClientForm.Properties.Resources.resources
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\obj\Debug\ClientForm.csproj.GenerateResource.Cache
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\obj\Debug\ClientForm.csproj.CoreCompileInputs.cache
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\obj\Debug\ClientForm.exe
+C:\Users\u17293\Desktop\WebService C#\MVC Models\PrimeiroWS\ClientForm\obj\Debug\ClientForm.pdb
