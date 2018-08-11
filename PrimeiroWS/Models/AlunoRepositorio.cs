@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using PrimeiroWS.Models;
@@ -15,18 +17,35 @@ namespace PrimeiroWS.Models
         public AlunoRepositorio()
         {
             alunos = new List<Aluno>();
-            _nextId = 1;
-
-            Add(new Aluno { Nome = "João Paulo", Curso = "Mecatrônica" });
-            Add(new Aluno { Nome = "Caio", Curso = "Informática" });
-            Add(new Aluno { Nome = "Maria Clara", Curso = "Eletro" });
-            Add(new Aluno { Nome = "Eduardo", Curso = "Enfermagem" });
-            
         }
 
         //Retorna tudo da lista de alunos
         public IEnumerable<Aluno> GetAll()
         {
+            string strConexao = ConfigurationManager.ConnectionStrings["Conn"].ConnectionString;
+            SqlConnection sqlConnection = new SqlConnection(strConexao);
+            String sql = "SELECT * FROM ALUNOS";
+            SqlCommand comando = new SqlCommand(sql);
+
+            comando.Connection = sqlConnection;
+
+            sqlConnection.Open();
+
+            SqlDataReader leitor = comando.ExecuteReader();
+
+            while (leitor.Read())
+            {
+                Aluno al = new Aluno();
+                al.Id = leitor.GetInt32(0);
+                al.Nome = leitor.GetString(1);
+                al.Curso = leitor.GetString(2);
+
+                alunos.Add(al);
+            }
+
+            leitor.Close();
+            sqlConnection.Close();
+
             return alunos;
         }
 
